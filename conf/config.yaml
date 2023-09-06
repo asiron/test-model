@@ -1,0 +1,3 @@
+defaults:
+  - foo: def_foo
+  - bar: def_bar

@@ -1,3 +1,5 @@
+[hydra]
+    enabled = true
 [core]
     remote = local
 ['remote "local"']

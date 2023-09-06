@@ -3,6 +3,8 @@ stages:
     cmd: mkdir models && echo 1234 > models/best.ckpt
     deps:
     - data/raw
+    params:
+    - foo
     outs:
     - models
   inference:
@@ -10,5 +12,7 @@ stages:
     deps:
     - data/raw
     - models
+    params:
+    - bar
     outs:
     - predictions
