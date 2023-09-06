@@ -1,0 +1,14 @@
+md5: ea3bfc872df1aa5843488915ff9b68ae
+frozen: true
+deps:
+- path: dataset1
+  repo:
+    url: git@github.com:asiron/datasets.git
+    rev: dataset1
+    rev_lock: 5b30fada16960abee2f10ea2fad4d48343a541c4
+outs:
+- md5: 07d3adf7b4510172a4d94723674521a6.dir
+  size: 24
+  nfiles: 4
+  hash: md5
+  path: raw
