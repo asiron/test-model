@@ -1,0 +1,4 @@
+[core]
+    remote = local
+['remote "local"']
+    url = ssh://ws//home/mzurad/testing-dvc-storage
